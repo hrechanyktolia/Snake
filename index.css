@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+.field {
+    box-shadow: black;
+    float: right;
+    width: 600px;
+    height: 600px;
+    margin-right: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    background: url("./img/field1.png");
+}
+.cell {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+.snakeBody {
+    background: url("./img/skin.jpg");
+    background-size: cover;
+    border-radius: 30%;
+}
+.head {
+    background: url("./img/head.jpg");
+    background-size: cover;
+    border-radius: 20%;
+}
+.apple {
+    background: url("./img/apple.png");
+    background-size: cover;
+}
+.input {
+    border-radius: 10px;
+    float: left;
+    margin: 20px 0 40px;
+    font-size: 30px;
+
+}
+.divMessage {
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    padding: calc(50vh - 27px);
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.85);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 40px 0 0;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3775dd;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    width: 200px
+}
+.button:hover {
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
